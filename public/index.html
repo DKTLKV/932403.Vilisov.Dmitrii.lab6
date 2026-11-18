@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Погода по городу</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2b7de9">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav><a href="/">Главная</a> | <a href="/about">О себе</a></nav>
+  <main>
+    <h1>Погода по городу</h1>
+    <input id="city" placeholder="Москва, Томск, Казань, Сыктывкар, Барнаул">
+    <select id="units">
+      <option value="metric">°C</option>
+      <option value="imperial">°F</option>
+    </select>
+    <button id="btn">Узнать</button>
+    <p id="result"></p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
